@@ -1,0 +1,153 @@
+{
+  "@timestamp": [
+    "2025-01-19T18:01:47.799Z"
+  ],
+  "agent.ephemeral_id": [
+    "7f74cc3e-ee30-46ad-a8ff-dea0180affe9"
+  ],
+  "agent.id": [
+    "ef96669a-e0cb-4e09-836d-28bbe2eef801"
+  ],
+  "agent.name": [
+    "Windows10"
+  ],
+  "agent.type": [
+    "filebeat"
+  ],
+  "agent.version": [
+    "8.17.0"
+  ],
+  "component.binary": [
+    "metricbeat"
+  ],
+  "component.dataset": [
+    "elastic_agent.metricbeat"
+  ],
+  "component.id": [
+    "system/metrics-default"
+  ],
+  "component.type": [
+    "system/metrics"
+  ],
+  "data_stream.dataset": [
+    "elastic_agent.metricbeat"
+  ],
+  "data_stream.namespace": [
+    "default"
+  ],
+  "data_stream.type": [
+    "logs"
+  ],
+  "ecs.version": [
+    "8.0.0"
+  ],
+  "elastic_agent.id": [
+    "ef96669a-e0cb-4e09-836d-28bbe2eef801"
+  ],
+  "elastic_agent.snapshot": [
+    false
+  ],
+  "elastic_agent.version": [
+    "8.17.0"
+  ],
+  "event.agent_id_status": [
+    "verified"
+  ],
+  "event.dataset": [
+    "elastic_agent.metricbeat"
+  ],
+  "event.ingested": [
+    "2025-01-19T18:02:20.000Z"
+  ],
+  "host.architecture": [
+    "x86_64"
+  ],
+  "host.hostname": [
+    "Windows10"
+  ],
+  "host.id": [
+    "b03073f0-8c78-41e8-81ed-eb67037c01c4"
+  ],
+  "host.ip": [
+    "fe80::5c2:81f5:29c5:214f",
+    "192.168.100.101"
+  ],
+  "host.mac": [
+    "08-00-27-17-6C-D0"
+  ],
+  "host.name": [
+    "windows10"
+  ],
+  "host.os.build": [
+    "19045.5247"
+  ],
+  "host.os.family": [
+    "windows"
+  ],
+  "host.os.kernel": [
+    "10.0.19041.5247 (WinBuild.160101.0800)"
+  ],
+  "host.os.name": [
+    "Windows 10 Home"
+  ],
+  "host.os.name.text": [
+    "Windows 10 Home"
+  ],
+  "host.os.platform": [
+    "windows"
+  ],
+  "host.os.type": [
+    "windows"
+  ],
+  "host.os.version": [
+    "10.0"
+  ],
+  "id": [
+    "system/metrics-system.filesystem-96c7feda-fce2-44bd-a4a2-9fdce43a8b3b"
+  ],
+  "input.type": [
+    "filestream"
+  ],
+  "log.file.idxhi": [
+    "917504"
+  ],
+  "log.file.idxlo": [
+    "3483"
+  ],
+  "log.file.path": [
+    "C:\\Program Files\\Elastic\\Agent\\data\\elastic-agent-8.17.0-96f2b9\\logs\\elastic-agent-20250119-2.ndjson"
+  ],
+  "log.file.vol": [
+    "2795039916"
+  ],
+  "log.level": [
+    "error"
+  ],
+  "log.logger": [
+    "system.filesystem"
+  ],
+  "log.offset": [
+    2835487
+  ],
+  "log.origin.file.line": [
+    90
+  ],
+  "log.origin.file.name": [
+    "filesystem/filesystem.go"
+  ],
+  "log.origin.function": [
+    "github.com/elastic/beats/v7/metricbeat/module/system/filesystem.(*MetricSet).Fetch"
+  ],
+  "log.source": [
+    "system/metrics-default"
+  ],
+  "message": [
+    "error getting filesystem usage for D:\\: GetDiskFreeSpaceEx failed: El dispositivo no está listo."
+  ],
+  "service.name": [
+    "metricbeat"
+  ],
+  "_id": "AZR_upPAjHyxO5nexZuR",
+  "_index": ".ds-logs-elastic_agent.metricbeat-default-2025.01.14-000001",
+  "_score": null
+}
