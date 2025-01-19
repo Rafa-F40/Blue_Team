@@ -1,0 +1,140 @@
+{
+  "@timestamp": [
+    "2025-01-19T18:12:17.034Z"
+  ],
+  "agent.ephemeral_id": [
+    "6e4a532e-e6b0-4d72-8e90-80a86cbc7b75"
+  ],
+  "agent.id": [
+    "ec4d07db-aeec-4262-93e5-554176e03d5d"
+  ],
+  "agent.name": [
+    "kali"
+  ],
+  "agent.type": [
+    "filebeat"
+  ],
+  "agent.version": [
+    "8.17.0"
+  ],
+  "container.id": [
+    "elastic-agent-8.17.0-96f2b9"
+  ],
+  "data_stream.dataset": [
+    "elastic_agent"
+  ],
+  "data_stream.namespace": [
+    "default"
+  ],
+  "data_stream.type": [
+    "logs"
+  ],
+  "ecs.version": [
+    "8.0.0"
+  ],
+  "elastic_agent.id": [
+    "ec4d07db-aeec-4262-93e5-554176e03d5d"
+  ],
+  "elastic_agent.snapshot": [
+    false
+  ],
+  "elastic_agent.version": [
+    "8.17.0"
+  ],
+  "event.agent_id_status": [
+    "verified"
+  ],
+  "event.dataset": [
+    "elastic_agent"
+  ],
+  "event.ingested": [
+    "2025-01-19T18:12:29.000Z"
+  ],
+  "host.architecture": [
+    "x86_64"
+  ],
+  "host.containerized": [
+    false
+  ],
+  "host.hostname": [
+    "kali"
+  ],
+  "host.id": [
+    "30e662c5c81d4191bd2444a79c97d2e0"
+  ],
+  "host.ip": [
+    "192.168.200.99",
+    "fe80::42aa:6c10:93ec:d986",
+    "172.17.0.1",
+    "fe80::42:30ff:fe23:6df5",
+    "fe80::3cb1:61ff:fe52:3e55"
+  ],
+  "host.mac": [
+    "02-42-30-23-6D-F5",
+    "08-00-27-D2-C6-66",
+    "3E-B1-61-52-3E-55"
+  ],
+  "host.name": [
+    "kali"
+  ],
+  "host.os.codename": [
+    "kali-rolling"
+  ],
+  "host.os.family": [
+    "debian"
+  ],
+  "host.os.kernel": [
+    "6.11.2-amd64"
+  ],
+  "host.os.name": [
+    "Kali GNU/Linux"
+  ],
+  "host.os.name.text": [
+    "Kali GNU/Linux"
+  ],
+  "host.os.platform": [
+    "kali"
+  ],
+  "host.os.type": [
+    "linux"
+  ],
+  "host.os.version": [
+    "2024.4"
+  ],
+  "input.type": [
+    "filestream"
+  ],
+  "log.file.device_id": [
+    "2049"
+  ],
+  "log.file.inode": [
+    "2368349"
+  ],
+  "log.file.path": [
+    "/opt/Elastic/Agent/data/elastic-agent-8.17.0-96f2b9/logs/elastic-agent-20250119-5.ndjson"
+  ],
+  "log.level": [
+    "info"
+  ],
+  "log.offset": [
+    7479163
+  ],
+  "log.origin.file.line": [
+    1270
+  ],
+  "log.origin.file.name": [
+    "coordinator/coordinator.go"
+  ],
+  "log.origin.function": [
+    "github.com/elastic/elastic-agent/internal/pkg/agent/application/coordinator.(*Coordinator).refreshComponentModel"
+  ],
+  "log.source": [
+    "elastic-agent"
+  ],
+  "message": [
+    "Updating running component model"
+  ],
+  "_id": "AZR_xJPAjHyxO5km0_rY",
+  "_index": ".ds-logs-elastic_agent-default-2025.01.14-000001",
+  "_score": null
+}
