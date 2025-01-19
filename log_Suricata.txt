@@ -1,0 +1,187 @@
+{
+  "@timestamp": [
+    "2025-01-19T18:30:37.141Z"
+  ],
+  "agent.ephemeral_id": [
+    "cd4ab167-8053-46e2-93f3-0ce987a03a3f"
+  ],
+  "agent.id": [
+    "69253dab-1558-461d-99a9-8860fbb4ea80"
+  ],
+  "agent.name": [
+    "kali"
+  ],
+  "agent.type": [
+    "filebeat"
+  ],
+  "agent.version": [
+    "8.17.0"
+  ],
+  "data_stream.dataset": [
+    "suricata.eve"
+  ],
+  "data_stream.namespace": [
+    "default"
+  ],
+  "data_stream.type": [
+    "logs"
+  ],
+  "destination.address": [
+    "192.168.250.1"
+  ],
+  "destination.ip": [
+    "192.168.250.1"
+  ],
+  "destination.port": [
+    53
+  ],
+  "dns.id": [
+    "22614"
+  ],
+  "dns.question.name": [
+    "fbaa7e5276a147b8b23c550bd40a78ce.es.us-east-1.aws.elastic.cloud"
+  ],
+  "dns.question.registered_domain": [
+    "elastic.cloud"
+  ],
+  "dns.question.subdomain": [
+    "fbaa7e5276a147b8b23c550bd40a78ce.es.us-east-1.aws"
+  ],
+  "dns.question.top_level_domain": [
+    "cloud"
+  ],
+  "dns.question.type": [
+    "A"
+  ],
+  "dns.type": [
+    "query"
+  ],
+  "ecs.version": [
+    "8.11.0"
+  ],
+  "elastic_agent.id": [
+    "69253dab-1558-461d-99a9-8860fbb4ea80"
+  ],
+  "elastic_agent.snapshot": [
+    false
+  ],
+  "elastic_agent.version": [
+    "8.17.0"
+  ],
+  "event.agent_id_status": [
+    "verified"
+  ],
+  "event.category": [
+    "network"
+  ],
+  "event.created": [
+    "2025-01-19T18:30:37.162Z"
+  ],
+  "event.dataset": [
+    "suricata.eve"
+  ],
+  "event.ingested": [
+    "2025-01-19T18:30:48.000Z"
+  ],
+  "event.kind": [
+    "event"
+  ],
+  "event.module": [
+    "suricata"
+  ],
+  "event.type": [
+    "protocol"
+  ],
+  "input.type": [
+    "log"
+  ],
+  "log.file.path": [
+    "/var/log/suricata/eve.json"
+  ],
+  "log.offset": [
+    29386459
+  ],
+  "message": [
+    ""
+  ],
+  "network.community_id": [
+    "1:Ge9STCjL3IzWMJ/+r6j51OvXzHk="
+  ],
+  "network.protocol": [
+    "dns"
+  ],
+  "network.transport": [
+    "udp"
+  ],
+  "observer.hostname": [
+    "kali"
+  ],
+  "observer.ip": [
+    "192.168.250.100",
+    "fe80::5a6d:a354:4c58:2090",
+    "172.17.0.1"
+  ],
+  "observer.mac": [
+    "02-42-BF-D8-6A-EE",
+    "08-00-27-AD-25-87"
+  ],
+  "observer.product": [
+    "Suricata"
+  ],
+  "observer.type": [
+    "ids"
+  ],
+  "observer.vendor": [
+    "OISF"
+  ],
+  "related.ip": [
+    "192.168.250.100",
+    "192.168.250.1"
+  ],
+  "source.address": [
+    "192.168.250.100"
+  ],
+  "source.ip": [
+    "192.168.250.100"
+  ],
+  "source.port": [
+    34793
+  ],
+  "suricata.eve.dns.id": [
+    22614
+  ],
+  "suricata.eve.dns.opcode": [
+    0
+  ],
+  "suricata.eve.dns.rrname": [
+    "fbaa7e5276a147b8b23c550bd40a78ce.es.us-east-1.aws.elastic.cloud"
+  ],
+  "suricata.eve.dns.rrtype": [
+    "A"
+  ],
+  "suricata.eve.dns.tx_id": [
+    0
+  ],
+  "suricata.eve.dns.type": [
+    "query"
+  ],
+  "suricata.eve.event_type": [
+    "dns"
+  ],
+  "suricata.eve.flow_id": [
+    "1453093661232658"
+  ],
+  "suricata.eve.in_iface": [
+    "eth0"
+  ],
+  "suricata.eve.pkt_src": [
+    "wire/pcap"
+  ],
+  "tags": [
+    "forwarded",
+    "suricata-eve"
+  ],
+  "_id": "AZR_1JPAjHyxO5nt7edO",
+  "_index": ".ds-logs-suricata.eve-default-2025.01.14-000001",
+  "_score": null
+}
